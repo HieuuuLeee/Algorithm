@@ -39,7 +39,7 @@ ld crossproduct(point a, point b, point c) {
     ac.j = c.y - a.y;
     return (ab.i * ac.j - ab.j * ac.i);
 }
-``1`
+```
 ```sh
 ld dotproduct(point a, point b, point c) {
     vect ab, bc;
